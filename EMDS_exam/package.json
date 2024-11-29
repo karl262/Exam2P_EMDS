@@ -1,0 +1,24 @@
+{
+  "name": "examenemds",
+  "version": "1.0.0",
+  "description": "Examen de EMDS",
+  "main": "exam.js",
+  "type": "module",
+  "scripts": {
+    "start": "node exam.js",
+    "dev": "nodemon exam.js",
+    "test": "mocha --reporter mochawesome"
+  },
+  "author": "Carlos Hipolito Serrano",
+  "license": "ISC",
+  "dependencies": {
+    "examenemds": "file:",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "mochawesome": "^7.1.3",
+    "sinon": "^19.0.2"
+  }
+}
